@@ -1,7 +1,9 @@
-# Priority-Based Flight Route Optimizer
+# Priority-Constrained Helicopter Routing for Last-Mile Emergency Disaster Relief
 
 ## Project Overview
-This project implements a Priority-Based Flight Route Optimizer that solves a modified version of the Traveling Salesman Problem (TSP) with priority constraints. The system helps find optimal routes between cities while considering priority levels, making it useful for scenarios like emergency response planning, supply chain optimization, or travel planning where some destinations have higher priorities than others.
+This project implements an Aerial Humanitarian Logistics Optimizer that solves a highly modified variation of the Travelling Salesman Problem (TSP) with strict priority constraints. Unlike standard TSP models that only minimize physical distance, this system is specifically designed for helicopter-based emergency response missions where critical, life-saving urgency overrides proximity. 
+
+By integrating a custom multi-objective cost function, the algorithm evaluates location-specific severity metrics alongside geographic coordinates. This ensures that distant, high-casualty disaster zones requiring urgent medical supplies and food are prioritized and visited first, intentionally bypassing closer, low-priority locations where infrastructure is more stable. This framework provides an optimized, time-critical dispatch strategy for humanitarian logistics when traditional ground transport networks have completely collapsed.
 
 ## System Requirements
 
