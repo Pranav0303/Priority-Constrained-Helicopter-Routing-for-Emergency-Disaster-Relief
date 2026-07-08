@@ -1,4 +1,4 @@
-# Priority-Constrained Helicopter Routing for Last-Mile Emergency Disaster Relief
+# Priority-Constrained Helicopter Routing for Emergency Disaster Relief
 
 ## Project Overview
 This project implements an Aerial Humanitarian Logistics Optimizer that solves a highly modified variation of the Travelling Salesman Problem (TSP) with strict priority constraints. Unlike standard TSP models that only minimize physical distance, this system is specifically designed for helicopter-based emergency response missions where critical, life-saving urgency overrides proximity. 
